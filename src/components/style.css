@@ -1,0 +1,25 @@
+* {
+    background-color: #e7d8c9;
+    color: #6b5a48;
+}
+h1 {
+    color: #879183;
+}
+.form {
+    margin: 20px;
+}
+.form input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 25%;
+    border-radius: 10px;
+}
+#messageBox {
+    display: block;
+    text-align: justify;
+    height: 100px;
+}
+button {
+    border-radius: 10px;
+}
