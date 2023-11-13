@@ -12,9 +12,12 @@ h1 {
     letter-spacing: 7px;
     display: flex;
     justify-content: center;
+    padding: 10px;
+    margin: 40px;
 }
 h2 {
     font-family: 'Lobster', sans-serif;
+    padding: 10px;
 }
 .form {
     margin: 20px;
@@ -43,4 +46,8 @@ footer {
     height: 50px;
     width: 50px;
     margin: 10px;
+}
+li {
+    font-family: 'playfair';
+    letter-spacing: 5px;
 }
