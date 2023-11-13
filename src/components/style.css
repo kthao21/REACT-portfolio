@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Lobster&family=Playfair+Display&display=swap');
+
+
 * {
     background-color: #e7d8c9;
     color: #6b5a48;
 }
 h1 {
+    font-family: 'playfair';
     color: #879183;
+    letter-spacing: 7px;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-family: 'Lobster', sans-serif;
 }
 .form {
     margin: 20px;
@@ -24,5 +35,12 @@ button {
     border-radius: 10px;
 }
 footer {
-    justify-content: end;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.my-icon-class {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
 }

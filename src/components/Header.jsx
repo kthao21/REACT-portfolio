@@ -5,7 +5,7 @@ function Header() {
     
     return (
         <header>
-            <h1>Kalia</h1>
+            <h1>KALIA</h1>
         </header>
     )
 }
