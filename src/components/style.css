@@ -23,3 +23,6 @@ h1 {
 button {
     border-radius: 10px;
 }
+footer {
+    justify-content: end;
+}

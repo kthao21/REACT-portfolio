@@ -1,13 +1,21 @@
+import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { FaLinkedin, FaGithub, FaStackOverflow } from 'react-icons/fa';
 
-function Footer() {
-    const currentPage = useLocation().pathname;
-    
+const Footer = () => {
+    const handleIconClick = (icon) => {
+      alert(`${icon} icon clicked!`);
+    };
+   
     return (
-        <footer>
-            
-        </footer>
-    )
-}
+      <footer>
+        <div>
+          <FaLinkedin onClick={() => handleIconClick('Linkedin')} />
+          <FaGithub onClick={() => handleIconClick('Github')} />
+          <FaStackOverflow onClick={() => handleIconClick('Stackoverflow')} />
+        </div>
+      </footer>
+    );
+   };
 
 export default Footer;

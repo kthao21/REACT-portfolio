@@ -7,7 +7,6 @@ function NavTabs() {
 
   return (
     <header>
-      <h1>Kalia</h1>
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <Link
