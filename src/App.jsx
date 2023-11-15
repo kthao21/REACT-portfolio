@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import Project from './components/Project';
 
 
+import './App.css'
+
 function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
@@ -13,7 +15,6 @@ function App() {
       <Header />
       <Nav />
       <main className="mx-3">
-        <Project />
         <Outlet />
       </main>
       <Footer />

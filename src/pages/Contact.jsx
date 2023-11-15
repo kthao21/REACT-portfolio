@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import '../components/style.css';
+
+
+
 export default function Contact() {
 
 //creating state variables for the fields
@@ -27,8 +29,16 @@ const handleInputChange = (e) => {
 };
 
 const handleFormSubmit = (e) => {
-  e.preventDafault();
-  alert("Your message has been successfully delivered!")
+  e.preventDefault();
+
+  const info = {
+    firstName: firstName,
+    lastName: lastName,
+    email: email, 
+    message: message
+  }
+  console.log(info);
+  // alert("Your message has been successfully delivered!")
   setFirstName('');
   setLastName('');
   setEmail('');
@@ -41,29 +51,33 @@ const handleFormSubmit = (e) => {
       <form className="form" onSubmit={handleFormSubmit}>
         <input
         value={firstName}
+        name='firstName'
         onChange={handleInputChange}
         type="text"
         placeholder="First Name"
         />
         <input
         value={lastName}
+        name='lastName's
         onChange={handleInputChange}
         type="text"
         placeholder="Last Name"
         />
         <input
         value={email}
+        name='email'
         onChange={handleInputChange}
-        type="text"
+        type="email"
         placeholder="Email"
         />
-        <input
+        <textarea
         value={message}
         onChange={handleInputChange}
         type="text"
+        name='message'
         placeholder="Enter Message Here"
         id="messageBox"
-        />
+        ></textarea>
         <button type="submit">Submit</button>
       </form>
     </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FaLinkedin, FaGithub, FaStackOverflow } from 'react-icons/fa';
-import '../components/style.css';
+
 
 const Footer = () => {
     const handleIconClick = (url) => {
