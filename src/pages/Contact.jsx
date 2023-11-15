@@ -47,7 +47,6 @@ const handleFormSubmit = (e) => {
 
   return (
     <div>
-      <h2>Contact Page</h2>
       <form className="form" onSubmit={handleFormSubmit}>
         <input
         value={firstName}

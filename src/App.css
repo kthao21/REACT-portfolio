@@ -27,6 +27,7 @@ h2 {
   margin-bottom: 5px;
   width: 25%;
   border-radius: 10px;
+  background-color: white;
 }
 #messageBox {
   display: block;
@@ -35,6 +36,11 @@ h2 {
 }
 button {
   border-radius: 10px;
+  margin: 10px;
+  background-color: #6b5a48;
+  color: white;
+  font-family: 'playfair';
+  letter-spacing: 5px;
 }
 footer {
   display: flex;
@@ -50,13 +56,50 @@ li {
   font-family: "playfair";
   letter-spacing: 5px;
 }
-.project{
+.project {
   margin: 20px;
+  padding: 10px;
 }
 .project img {
   width: 30%;
 }
 .profile {
   width: 200px;
-  height: 300px;
+  height: 290px;
+  margin: 40px;
+  border-radius: 95px 95px 0px 0px;
+  border: solid 3px #6b5a48;
+  display: flex;
+  justify-content: center;
+}
+.bio {
+  display: flex;
+  width: 800px;
+  letter-spacing: 5px;
+  line-height: -3px;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+textarea {
+  width: 25%;
+  border-radius: 10px;
+  background-color: white;
+}
+.my-buttons {
+  background-color: white;
+  color: #6b5a48;
+  border: none;
+}
+.card {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  color: #879183;
+  background-color: #6b5a48;
+}
+.title {
+  font-family: 'playfair';
+  letter-spacing: 5px;
 }
