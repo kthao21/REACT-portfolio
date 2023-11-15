@@ -20,6 +20,7 @@ h2 {
 }
 .form {
   margin: 20px;
+  display: block;
 }
 .form input {
   display: block;
@@ -28,11 +29,15 @@ h2 {
   width: 25%;
   border-radius: 10px;
   background-color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 #messageBox {
   display: block;
   text-align: justify;
   height: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 button {
   border-radius: 10px;
@@ -41,6 +46,9 @@ button {
   color: white;
   font-family: 'playfair';
   letter-spacing: 5px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 footer {
   display: flex;
@@ -91,15 +99,27 @@ textarea {
   background-color: white;
   color: #6b5a48;
   border: none;
+  margin: 5px;
 }
 .card {
-  display: inline-block;
+  display: inline-flex;
   margin: 10px;
   padding: 10px;
   color: #879183;
   background-color: #6b5a48;
+  letter-spacing: 3px;
+  border-radius: 20px;
 }
 .title {
   font-family: 'playfair';
   letter-spacing: 5px;
+}
+.submit {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  text-align: center;
+  margin: 30px;
 }

@@ -58,7 +58,7 @@ const Project = () => {
   return (
     <div>
     {projectData.map((project) => (
-    <Card className='card' style={{ width: '18rem' }}>
+    <Card className='card' style={{ width: '25rem' }}>
       <Card.Img variant="top" img src={project.imgSrc} />
       <Card.Body>
         <Card.Title className='title'>{project.name}</Card.Title>
