@@ -15,7 +15,7 @@ This is my professional portfolio using REACT components.
 7. Press Enter to create your local clone.
 
 ## Usage
-(assets/images/reactportfolio.png)
+![alt text](assets/images/reactportfolio.png)
 
 ## Credits
 
