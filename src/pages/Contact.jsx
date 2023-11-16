@@ -10,7 +10,6 @@ const [lastName, setLastName] = useState("");
 const [email, setEmail] = useState("");
 const [message, setMessage] = useState("");
 
-
 const handleInputChange = (e) => {
   const { target } = e;
   const inputType = target.name;
