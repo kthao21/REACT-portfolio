@@ -5,7 +5,7 @@ export default function Home() {
     <div className='bio'>
         <img src={profilepic} className='profile'/>
         <p>
-        I am a part time student learning full stack web development through UC Davis bootcamp. Skills I have learned so far include HTML, CSS, JavaScript, NodeJS and MySQL. I aspire to design websites for small businesses to expand my portfolio. Outside of school, I work in a dental office as receptionist and dental assistant.
+        Hello there! I am Kalia, a web developer with a passion for coding. I recently earned a certificate in web coding, which has given me a solid foundation in HTML, CSS and JavaScript. I'm currently searching for a long-term career where I can continue to learn and expand my knowledge as a developer.
       </p>
     </div>
   );
